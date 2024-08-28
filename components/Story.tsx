@@ -28,7 +28,7 @@ export function Story() {
             <div
               className={cn(
                 // remove p-4 rounded-3xl dark:bg-black dark:border-white/[0.2] bg-white  border border-transparent, add border border-white/[0.1] overflow-hidden relative
-                "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4"
+                "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
               )}
               style={{
                 //   add these two
@@ -40,7 +40,7 @@ export function Story() {
             >
               <div
                 className={cn(
-                  "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
+                  "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10",
                 )}
               >
                 {/* change the order of the title and des, font-extralight, remove text-xs text-neutral-600 dark:text-neutral-300 , change the text-color */}
@@ -91,8 +91,8 @@ export function Story() {
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
             I was accepted into the University of California, Berkeley, where I
             am currently pursuing a degree in Data Science with a focus on
-            Robotics. The journey has been transformative, and I'm excited about
-            the path ahead.
+            Robotics. The journey has been transformative, and I&apos;m excited
+            about the path ahead.
           </p>
 
           <div className="grid grid-cols-2 gap-4">
@@ -159,14 +159,14 @@ export function Story() {
             development, ensuring a seamless user experience and robust system
             architecture. Additionally, I developed a machine learning algorithm
             that accurately predicts the relevance of government publications,
-            significantly enhancing the platform's value to its users.
+            significantly enhancing the platform&apos;s value to its users.
           </p>
 
           <div className="grid grid-cols-2 gap-4">
             <div
               className={cn(
                 // remove p-4 rounded-3xl dark:bg-black dark:border-white/[0.2] bg-white  border border-transparent, add border border-white/[0.1] overflow-hidden relative
-                "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4"
+                "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
               )}
               style={{
                 //   add these two
@@ -178,7 +178,7 @@ export function Story() {
             >
               <div
                 className={cn(
-                  "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col "
+                  "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col ",
                 )}
               >
                 <Image
