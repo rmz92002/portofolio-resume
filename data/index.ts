@@ -1,7 +1,9 @@
+import { link } from "fs";
+
 export const navItems = [
-  { name: "About", link: "#about" },
+  { name: "Story", link: "#story" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Approach", link: "#approach" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -72,34 +74,37 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "AIMG",
+    des: "Co-founded a cutting-edge technology startup with my brother that utilizes artificial intelligence to generate high-quality images and prints them on demand for customers.",
+    img: "/AIMG.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "AIMG.art",
+    linkOpen: "https://aimg.art",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Free Geek Toronto Website",
+    des: "This website employs web scraping to gather internet pricing data for products and employs AI to estimate their approximate values.",
+    img: "/freegeek.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "priceanything.netlify.app",
+    linkOpen: "https://priceanything.netlify.app",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Artu",
+    des: "Worked in a tech startup that monitors the government publication and provides a platform for businesses to access the data.",
+    img: "/artu.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "artu.ai",
+    linkOpen: "https://artu.ai",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    title: "Gala",
+    des: "Created a mobile application where users can create their own events.",
+    img: "/Gala.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/gsap.svg"],
     link: "/ui.apple.com",
   },
 ];
@@ -187,15 +192,15 @@ export const workExperience = [
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Filmaker",
+    desc: "Have done short films, commmericals and documentaries for fun in my free time ",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Backend Developer",
+    desc: "Have developed and maintained backend services for a web-based platforms using Node.js, Express, MogoDB, and PostgreSQL.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -204,14 +209,17 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
+    link: "https://github.com/rmz92002",
     img: "/git.svg",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    link: "https://www.youtube.com/@ramitavids9486",
+    img: "/youtube.svg",
   },
   {
     id: 3,
+    link: "https://www.linkedin.com/in/santiago-ramirez-villalobos-68802424a",
     img: "/link.svg",
   },
 ];
