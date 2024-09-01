@@ -35,7 +35,7 @@ const Approach = () => {
           <CanvasRevealEffect
             animationSpeed={3}
             // change bg-black to bg-pink-900
-            containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-white-300 rounded-3xl overflow-hidden"
             colors={[
               // change the colors of the
               [255, 166, 158],
@@ -56,8 +56,12 @@ const Approach = () => {
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
-            colors={[[125, 211, 252]]}
+            containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
+            colors={[
+              // change the colors of the
+              [255, 166, 158],
+              [221, 255, 247],
+            ]}
           />
         </Card>
       </div>
