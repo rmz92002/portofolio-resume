@@ -158,9 +158,9 @@ export function Story() {
             system architecture. Additionally, I developed a machine learning
             algorithm that accurately predicts the relevance of government
             publications, significantly enhancing the platform&apos;s value to
-            its users.During my time there, we also entered the Platanus
-            accelerator program, which invested $200,000 for a 5% equity stake
-            in the company.
+            its users. During my time there, we were accepted into the highly
+            selective Platanus accelerator program, which has an acceptance rate
+            of just 2%.
           </p>
 
           <div className="grid grid-cols-2 gap-4">
