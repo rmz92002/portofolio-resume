@@ -153,13 +153,14 @@ export function Story() {
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
             At Artu, a startup focused on monitoring Mexican government
-            publications, I played a key role in developing a platform that
-            determines the relevance of these publications for users and
-            companies. My responsibilities spanned both front-end and back-end
-            development, ensuring a seamless user experience and robust system
-            architecture. Additionally, I developed a machine learning algorithm
-            that accurately predicts the relevance of government publications,
-            significantly enhancing the platform&apos;s value to its users.
+            publications. My responsibilities spanned both front-end and
+            back-end development, ensuring a seamless user experience and robust
+            system architecture. Additionally, I developed a machine learning
+            algorithm that accurately predicts the relevance of government
+            publications, significantly enhancing the platform&apos;s value to
+            its users.During my time there, we also entered the Platanus
+            accelerator program, which invested $200,000 for a 5% equity stake
+            in the company.
           </p>
 
           <div className="grid grid-cols-2 gap-4">
