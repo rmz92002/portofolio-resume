@@ -7,6 +7,32 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+export const machineLearning = [
+  {
+    id: 1,
+    title: "Exploring psychiatric disorders",
+    des: "In this study, an EEG dataset comprising approximately 1,000 attributes was utilized to identify psychiatric disorders. The primary objective was twofold: to determine whether the mind was healthy and, if not, to identify the specific psychiatric disorder present. Psychiatric disorders encompass a wide range of conditions, including depression, personality disorders, anxiety disorders, schizophrenia, eating disorders, and addictive behaviors, all of which significantly impact an individual's thinking, mood, and behavior.",
+    img: "/brain2.png",
+    link: "Psychiatric Disorders",
+    iconLists: [],
+    linkOpen:
+      "https://www.kaggle.com/embed/santiagoramirez2002/deep-learning-exploring-psychiatric-disorders?kernelSessionId=196578271",
+  },
+  ,
+  {
+    id: 2,
+    title:
+      "Predicting Drug Sensitivity in Cancer Cell Lines Using Deep Learning",
+    des: "This study leverages deep learning to predict the natural logarithm of the half-maximal inhibitory concentration (LN_IC50) for various anti-cancer drugs based on the genomic features of cancer cell lines. Utilizing the Genomics of Drug Sensitivity in Cancer (GDSC) dataset, the research aims to explore the relationship between genetic markers and drug response, contributing to the field of personalized medicine and therapeutic biomarker discovery.",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    titleClassName: "justify-start",
+    img: "cancer.png",
+    link: "Drug Sensitivity",
+    iconLists: [],
+    linkOpen:
+      "https://www.kaggle.com/embed/santiagoramirez2002/genomics-of-drug-sensitivity-in-cancer-analysis?kernelSessionId=193765848",
+  },
+];
 export const gridItems = [
   {
     id: 1,

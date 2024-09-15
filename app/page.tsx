@@ -9,6 +9,7 @@ import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { Story } from "@/components/Story";
+import MachineLearning from "@/components/MachineLearning";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Story />
+        <MachineLearning />
         <RecentProjects />
         <Experience />
         <Approach />
