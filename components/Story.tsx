@@ -202,6 +202,60 @@ export function Story() {
         </div>
       ),
     },
+    {
+      title: "2024 September-December",
+      content: (
+        <div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            At Ember Robotics, a Y Combinator-backed startup, I developed an
+            autonomous 3D navigation system for a TurtleBot, simulating two
+            robots with one device. Using RTAB-Map, I implemented 3D SLAM for
+            real-time mapping, localization, and trajectory optimization. I also
+            designed feature-matching algorithms with RGB and depth data for
+            precise pose alignment and integrated laser scanning for obstacle
+            detection and smooth navigation. This project enhanced my expertise
+            in ROS, sensor fusion, and autonomous robotics.
+          </p>
+
+          <div className="grid grid-cols-2 gap-4">
+            <div
+              className={cn(
+                // remove p-4 rounded-3xl dark:bg-black dark:border-white/[0.2] bg-white  border border-transparent, add border border-white/[0.1] overflow-hidden relative
+                "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
+              )}
+              style={{
+                //   add these two
+                //   you can generate the color from here https://cssgradient.io/
+                background: "rgb(4,7,29)",
+                backgroundColor:
+                  "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+              }}
+            >
+              <div
+                className={cn(
+                  "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col ",
+                )}
+              >
+                <Image
+                  src="/ember.png"
+                  alt="hero template"
+                  width={500}
+                  height={500}
+                  className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+                />
+              </div>
+            </div>
+            <Image
+              src="/ember1.png"
+              alt="feature template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+          </div>
+        </div>
+      ),
+    },
   ];
   return (
     <div className="w-full ">

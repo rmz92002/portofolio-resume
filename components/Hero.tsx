@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white">
-            Hi! I&apos;m Santiago, a Software engineer based in Berkeley, CA.
+            Hi! I&apos;m Santiago, an engineer based in Berkeley, CA.
           </p>
 
           <a href="#projects">
