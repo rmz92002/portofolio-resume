@@ -256,6 +256,54 @@ export function Story() {
         </div>
       ),
     },
+    {
+      title: "2025 May-Present",
+      content: (
+        <div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            Founded Learnzy, a startup that delivers personalized, interactive
+            courses on any subject you want to learn. Learnzy adapts to each
+            learner&apos;s pace and style, combining AI-driven content generation
+            with engaging exercises to make mastering any topic faster and more
+            effective.
+          </p>
+
+          <div className="grid grid-cols-2 gap-4">
+            <div
+              className={cn(
+                "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
+              )}
+              style={{
+                background: "rgb(4,7,29)",
+                backgroundColor:
+                  "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+              }}
+            >
+              <div
+                className={cn(
+                  "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col ",
+                )}
+              >
+                <Image
+                  src="/LearnzyLogo.png"
+                  alt="Learnzy logo"
+                  width={500}
+                  height={500}
+                  className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+                />
+              </div>
+            </div>
+            <Image
+              src="/learnzy.png"
+              alt="Learnzy app"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+          </div>
+        </div>
+      ),
+    },
   ];
   return (
     <div className="w-full ">

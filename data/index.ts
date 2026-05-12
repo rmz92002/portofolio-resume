@@ -100,6 +100,15 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Learnzy",
+    des: "Learnzy gives personalized lectures on whatever topics you want.",
+    img: "/learnzy.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/re.svg"],
+    link: "learnzy.io",
+    linkOpen: "https://learnzy.io",
+  },
+  {
+    id: 2,
     title: "AIMG",
     des: "Co-founded a cutting-edge technology startup with my brother that utilizes artificial intelligence to generate high-quality images and prints them on demand for customers.",
     img: "/AIMG.png",
@@ -108,7 +117,7 @@ export const projects = [
     linkOpen: "https://aimg.art",
   },
   {
-    id: 2,
+    id: 3,
     title: "Free Geek Toronto Website",
     des: "This website employs web scraping to gather internet pricing data for products and employs AI to estimate their approximate values.",
     img: "/freegeek.png",
@@ -117,7 +126,7 @@ export const projects = [
     linkOpen: "https://priceanything.netlify.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Artu",
     des: "Worked in a tech startup that monitors the government publication and provides a platform for businesses to access the data.",
     img: "/artu.png",
@@ -126,7 +135,7 @@ export const projects = [
     linkOpen: "https://artu.ai",
   },
   {
-    id: 4,
+    id: 5,
     title: "Gala",
     des: "Created a mobile application where users can create their own events.",
     img: "/Gala.png",
